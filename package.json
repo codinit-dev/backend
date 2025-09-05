@@ -1,0 +1,32 @@
+{
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js",
+    "build": "node build.js"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.42",
+    "@vercel/node": "^2.15.10",
+    "fs-extra": "^11.3.1"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "^2.0.12",
+    "@ai-sdk/fireworks": "^1.0.15",
+    "@ai-sdk/google": "^2.0.12",
+    "@ai-sdk/google-vertex": "^3.0.20",
+    "@ai-sdk/mistral": "^2.0.13",
+    "@ai-sdk/openai": "^2.0.24",
+    "@e2b/code-interpreter": "^2.0.0",
+    "@supabase/supabase-js": "^2.57.2",
+    "ai": "^5.0.33",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.2",
+    "express": "^5.1.0",
+    "lru-cache": "^11.2.1",
+    "ollama-ai-provider": "^1.2.0",
+    "stripe": "^18.5.0",
+    "zod": "^3.25.76"
+  }
+}
